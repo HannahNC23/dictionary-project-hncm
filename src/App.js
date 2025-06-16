@@ -8,9 +8,6 @@ function App() {
       <div className="container">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <a href="#" className="btn btn-primary">
-            Search
-          </a>
         </header>
         <main>
           <Dictionary />
