@@ -1,19 +1,24 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Dictionary from "./Dictionary.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="#" className="btn btn-primary">
-          Learn React
-        </a>
-        Hello
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <a href="#" className="btn btn-primary">
+            Search
+          </a>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          Coded by Hannah Nicole Charles-Murphy
+        </footer>
+      </div>
     </div>
   );
 }
