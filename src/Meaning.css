@@ -1,0 +1,11 @@
+.Meaning .definition {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.Meaning .example {
+  font-size: 16px;
+  opacity: #ddd;
+  font-style: italic;
+}
