@@ -1,1 +1,18 @@
+.Dictionary section {
+  background-color: #f2bf17;
+  padding: 20px;
+  margin: 5px 0;
+}
 
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  color: #555555;
+}
+
+.Dictionary .Hint {
+  font-size: 13px;
+  margin-top: 3px;
+}
